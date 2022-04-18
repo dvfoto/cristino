@@ -1,0 +1,27 @@
+@import './botton.css';
+@import './footer.css';
+@import './form.css';
+@import './header.css';
+@import './variables.css';
+
+    body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;    
+    align-content: center;
+    width: 100%;
+    
+}
+
+@media (min-width: 480px){
+
+
+}
+
+@media (min-width: 1200px){
+
+}
