@@ -16,7 +16,9 @@ color: var(--text-color);
 .header{
     display: flex;
     flex-direction: row;
+    position:fixed;
     justify-content: space-between;
+    background-color: white;
     width: 90%;
     padding: 30px 30px;
     margin-right: auto;
