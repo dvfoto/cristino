@@ -75,6 +75,7 @@ color: var(--text-color);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: auto;
     left: -450px;
+    text-align: center;
     transition: all 0.5s;
   }
   
@@ -146,23 +147,23 @@ color: var(--text-color);
     align-items: center;
     gap: 20px;
     cursor: pointer;
+        } 
+
+.icons > a,
+.dropdown > .dropbtn > a{
+    
     font-size: 20px;
     font-weight: bold;
     color: var(--text-color);
-    /* text-align: center; */
-        } 
-
-.icons > i,
-.dropdown > .dropbtn > i{
-    
+    text-decoration: none;
     border: 2px solid rgb(126, 125, 125);
     padding: 10px;
     border-radius: 25%;
     line-height: 15px;
     box-shadow: 5px 5px 10px rgba(1, 1, 1, 0%);
         }
-.icons > i:hover,
-.dropdown > .dropbtn > i:hover{
+.icons > a:hover,
+.dropdown > .dropbtn > a:hover{
     background-color: rgb(125, 125, 125);
     color: var(--primary-color);
     box-shadow: 5px 5px 10px rgb(125, 125, 125);
