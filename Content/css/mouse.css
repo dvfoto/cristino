@@ -1,11 +1,15 @@
 .mouse{
     /* display: inline-block;     */
-    font-size: 2px;    /*resaizinimo elementas, visu kitu  nes em( emais) keiciasi dydis*/
+    font-size: 1px;    /*resaizinimo elementas, visu kitu  nes em( emais) keiciasi dydis*/
     width: 25em;
     height: 40em;
     text-align: center;
     border: 2.5em solid rgb(0, 0, 0);
     border-radius: 12.5em;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    cursor: pointer;
 
 
 }
@@ -23,11 +27,11 @@
 @keyframes ratas-sukasi {
     0% {
         margin-top: 7em;
-        background-color: rgb(0, 0, 0) ;
+        background-color: var(--primary-color);
     }
     35% {
 
-        background-color: rgb(0, 0, 0) ;
+        background-color: var(--primary-color);
     }
     100% {
 
