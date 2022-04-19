@@ -4,3 +4,7 @@
     --text-color: rgb(52, 52, 52);
     --text-color-mobile: rgb(177, 177, 177);
     --ux-design: 90%; }
+
+    html{
+        scroll-behavior: smooth;
+    }
