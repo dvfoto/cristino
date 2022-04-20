@@ -5,6 +5,7 @@
     --text-color-mobile: rgb(177, 177, 177);
     --ux-design: 90%; 
     --border-box: rgb(227, 226, 226);
+    --shadow-color: #a24250;
 }
     html{
         scroll-behavior: smooth;

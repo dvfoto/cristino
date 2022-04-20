@@ -64,6 +64,3 @@ h5{
     color: var(--text-color);
 }
 
-h5:hover{
-    color: var(--primary-color);
-}
