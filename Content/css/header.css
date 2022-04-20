@@ -16,16 +16,17 @@ color: var(--text-color);
 .header{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     left: 0;
     justify-content: space-between;
     background-color: white;
     width: 90%;
-    padding: 30px 30px;
+    padding: 0px 30px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 100px;
 }
 .icons-m{
     display: flex;
@@ -191,8 +192,7 @@ color: var(--text-color);
         width: 90%;
         padding: 30px 30px;
         margin-right: auto;
-        margin-left: auto;
-    }
+        margin-left: auto;}
     .menu{
         display: flex;
         flex-direction: row;
