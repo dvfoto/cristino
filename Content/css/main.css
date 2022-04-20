@@ -8,6 +8,7 @@
 @import './second-block.css';
 @import './third-block.css';
 @import './fourth-block.css';
+@import './fifth-block.css';
 
     body{
     box-sizing: border-box;
@@ -57,4 +58,12 @@ p{
     text-align: center;
     font-size: 19px;
 }
+h5{
 
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+h5:hover{
+    color: var(--primary-color);
+}
