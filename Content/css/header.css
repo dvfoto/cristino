@@ -162,7 +162,7 @@ color: var(--text-color);
     font-weight: bold;
     color: var(--text-color);
     text-decoration: none;
-    border: 2px solid rgb(126, 125, 125);
+    border: 2px solid var(--text-color);
     padding: 10px;
     border-radius: 25%;
     line-height: 15px;

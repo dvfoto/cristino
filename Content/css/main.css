@@ -9,6 +9,7 @@
 @import './third-block.css';
 @import './fourth-block.css';
 @import './fifth-block.css';
+@import './work-partision-block.css';
 
     body{
     box-sizing: border-box;
@@ -62,5 +63,16 @@ h5{
 
     font-size: 20px;
     color: var(--text-color);
+    text-align: center;
 }
+h6{
+    font-size: 20px;
+    padding: 20px 0 5px 20px;
+    margin: 0;
+}
+h6:hover{
+    color: var(--primary-color);
+}
+
+.text-align-center{text-align: center;}
 
