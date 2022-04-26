@@ -10,6 +10,7 @@
 @import './fourth-block.css';
 @import './fifth-block.css';
 @import './work-partision-block.css';
+@import './portfolio.css';
 
     body{
     box-sizing: border-box;
@@ -47,6 +48,7 @@ h3 > .span{
 
 p{
     color: var(--text-color-mobile); 
+    margin-left: 20px;
     
 }
 
@@ -75,4 +77,5 @@ h6:hover{
 }
 
 .text-align-center{text-align: center;}
+.margin-left{ margin-left: 30px;}
 
